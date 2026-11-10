@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 🎓 Student Performance Predictor
 
 A Machine Learning project that predicts students' estimated final exam marks based on their academic performance and daily habits.
@@ -27,9 +26,7 @@ The project provides an interactive web application built using Streamlit.
 - Matplotlib
 - Streamlit
 - Joblib
-
-📂 Project Structure
-
+ 📂 Project Structure
 
 Student_Performance_Predictor/
 │
@@ -47,33 +44,33 @@ Student_Performance_Predictor/
 
 ⚙️ Installation and Setup
 
- 1. Clone the repository
-git clone YOUR_GITHUB_REPOSITORY_URL
+1. Clone the repository:
+git clone https://github.com/krupantibangade/Student-Performance-Predictor.git
 
-2. Open the project folder
-cd Student_Performance_Predictor
+2. Open the project folder:
+cd Student-Performance-Predictor
 
-3. Create a virtual environment
+3. Create a virtual environment:
 python -m venv venv
 
-4. Activate the environment (Windows PowerShell)
+4. Activate it (Windows PowerShell):
 .\venv\Scripts\Activate.ps1
 
-5. Install dependencies
+5. Install dependencies:
 pip install -r requirements.txt
 
-6. Generate the dataset
+6. Generate the dataset:
 python generate_data.py
 
-7. Train the machine learning model
+7. Train the machine learning model:
 python train_model.py
 
- 8. Run the application
+8. Run the application:
 streamlit run app.py
 
 Open http://localhost:8501 in your browser.
 
-🧠 Machine Learning Algorithm
+ 🧠 Machine Learning Algorithm
 
 **Linear Regression**
 
@@ -87,18 +84,6 @@ Input features:
 Output:
 - Estimated Final Marks
 
-📸 Screenshots
-
-Add screenshots of your Streamlit application here.
-
-Example:
-
-![Dashboard](screenshots/dashboard.png)
-
-⚠️ Disclaimer
-
-This project uses a synthetic dataset created for educational and demonstration purposes. Its predictions are not validated for real-world academic decisions.
-
 👩‍💻 Author
 
 **Krupanti Bangade**
@@ -108,7 +93,4 @@ Student | IT
 ---
 
 ⭐ If you find this project useful, consider giving it a star!
-=======
-# Student-Performance-Predictor
-ML-based Student Marks Prediction using Python and Streamlit
->>>>>>> 3992ce7392a2b5cce99f06243459dcb351a943bc
+
